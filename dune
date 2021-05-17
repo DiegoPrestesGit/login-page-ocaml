@@ -1,6 +1,7 @@
 (executable
  (name login-page)
- (public_name login-page-ocaml)
  (libraries opium)
+ (flags
+  (:standard -warn-error -24))
  (preprocess
   (pps ppx_deriving_yojson)))
