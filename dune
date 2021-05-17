@@ -1,0 +1,6 @@
+(executable
+ (name login-page)
+ (public_name login-page-ocaml)
+ (libraries opium)
+ (preprocess
+  (pps ppx_deriving_yojson)))
