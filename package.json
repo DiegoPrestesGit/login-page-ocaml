@@ -1,4 +1,5 @@
 {
+    "name": "login-page-ocaml",
     "dependencies": {
         "@opam/dune": "*",
         "@opam/ocaml-lsp-server": "1.6.0",
