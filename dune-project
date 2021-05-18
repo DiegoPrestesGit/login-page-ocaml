@@ -1,9 +1,9 @@
 (lang dune 2.8)
 
-(name login-page)
+(name execute)
 
 (package
-  (name login-page)
+  (name execute)
   (depends
    (ocaml
    (>= "4.08.0"))

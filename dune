@@ -1,7 +1,5 @@
 (executable
- (name login-page)
+ (name execute)
  (libraries opium)
- (flags
-  (:standard -warn-error -24))
  (preprocess
   (pps ppx_deriving_yojson)))
