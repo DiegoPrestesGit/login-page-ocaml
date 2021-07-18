@@ -1,1 +1,3 @@
-# login Page (but in OCaml)
+# Messing with OCaml
+
+> Learning this beautiful functional language
