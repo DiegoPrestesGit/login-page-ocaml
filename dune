@@ -1,5 +1,0 @@
-(executable
- (name execute)
- (libraries opium)
- (preprocess
-  (pps ppx_deriving_yojson)))
