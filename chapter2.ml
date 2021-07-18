@@ -10,8 +10,7 @@ let x = if res then "thats a vogal" else "thats a consonant";;
 Format.print_string x;;
 Format.printf "\n";;
 
-let addtoten a b =
-  a + b = 10;;
+let addtoten a b = a + b = 10;;
 
 let tenResult = addtoten 6 4;;
 Format.print_bool tenResult;;
@@ -24,12 +23,15 @@ let rec factorial a =
   Format.printf "\n";;
 
 let rec gcd a b =
-  Format.print_int a;
-  Format.printf "\n";
-  Format.print_int b;
-  Format.printf "\n";
   if b = 0 then a else gcd b (a mod b);;
 
-let gcdRes = gcd 64000 3546;;
+let gcdRes = gcd 64000 3456;;
 Format.print_int gcdRes;;
+Format.printf "\n";;
+
+let isX x =
+  if x then "is xesque" else "is not xesque";;
+
+let isIt = isX false;;
+print_string isIt;;
 Format.printf "\n";;
