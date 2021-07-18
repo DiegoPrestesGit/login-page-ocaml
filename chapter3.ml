@@ -27,6 +27,29 @@ let rec isvowelMatching c =
   | 'u' -> true
   | _ -> false;;
 
+let rec betterVowelMatching c =
+  match c with 
+    'a' | 'e' | 'i' | 'o' | 'u' -> true
+  | _ -> false;;
+
 let resVowel = isvowelMatching 'b';;
 print_bool resVowel;;
+printf "\n";;
+
+let rec euclid a b =
+  match b with
+    0 -> a
+  | _ -> euclid b (a mod b);;
+
+let resEuclid = euclid 64000 3456;;
+print_int resEuclid;;
+printf "\n";;
+
+let not x =
+  match x with
+    false -> true
+  | true -> false;;
+
+let isIt = not true;;
+print_bool isIt;;
 printf "\n";;
