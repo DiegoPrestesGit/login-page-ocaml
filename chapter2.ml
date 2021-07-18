@@ -1,5 +1,6 @@
 open Format
 
+(* more basic function stuff *)
 let isvowel c =
   c = 'a' || c = 'e' || c = 'i' || c = 'o' || c = 'u';;
 
@@ -16,6 +17,7 @@ let tenResult = addtoten 6 4;;
 Format.print_bool tenResult;;
 Format.printf "\n";;
 
+(* nested function with recursion *)
 let rec factorial a =
   if a = 1 then 1 else a * factorial (a - 1);;
   let resu = factorial 4;;
@@ -29,6 +31,7 @@ let gcdRes = gcd 64000 3456;;
 Format.print_int gcdRes;;
 Format.printf "\n";;
 
+(* basic function again ;) *)
 let isX x =
   if x then "is xesque" else "is not xesque";;
 
