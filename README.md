@@ -1,4 +1,4 @@
-# Messing with OCaml
+# Messing with OCaml - big time
 
 > Learning this beautiful functional language
 
